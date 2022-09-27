@@ -118,7 +118,7 @@
 </head>
 <body>
   <div>
-  <a href="https://{{HOST}}" target="_blank" rel="noopener noreferrer">
+  <a href="https://${HOST}" target="_blank" rel="noopener noreferrer">
     <xsl:for-each select="source">
       <xsl:sort select="not(stream_start_iso8601)" />
       <xsl:if test="position()!=last()">
@@ -140,7 +140,7 @@
       </xsl:if>
     </xsl:for-each>
   </a>
-  <a href="https://{{HOST}}/playlist.m3u">Download m3u</a>
+  <a href="https://${HOST}/playlist.m3u">Download m3u</a>
   </div>
 </body>
 </xsl:template>
