@@ -1,4 +1,7 @@
-# Radio bar for Icecast2
+# Status bar for Icecast2
+
+A status bar for [Icecast2](https://icecast.org/) - streaming media server.
+
 
 ## Usage
 
